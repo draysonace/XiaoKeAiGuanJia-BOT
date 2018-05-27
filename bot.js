@@ -7,7 +7,10 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'r6 dray') {
-    	message.reply('fdfsdf');
+    	message.reply({embed: {
+  color: 3447003,
+  description: "A very simple Embed!"
+}});
   	}
 });
 
