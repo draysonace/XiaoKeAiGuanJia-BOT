@@ -12,7 +12,7 @@ client.on('message', message => {
     "color": 16777215,
     "footer": {
       "icon_url": "https://ubistatic19-a.akamaihd.net/resource/it-it/game/rainbow6/siege-v3/r6-operators-list-jager_317272.png",
-      "text": "Jäger | Developed by Drayson"
+      "text": "Jäger"
     },
     "thumbnail": {
       "url": "https://uplay-avatars.s3.amazonaws.com/a633df64-18bf-4f2d-a314-d75ab9c77657/default_146_146.png"
@@ -31,7 +31,7 @@ client.on('message', message => {
     "color": 16777215,
     "footer": {
       "icon_url": "https://ubistatic19-a.akamaihd.net/resource/it-it/game/rainbow6/siege-v3/r6-operators-list-jager_317272.png",
-      "text": "Jäger | Developed by Drayson"
+      "text": "Jäger"
     },
     "thumbnail": {
       "url": "https://uplay-avatars.s3.amazonaws.com/0ce52d73-e597-4aad-b2ac-3733b9c37194/default_146_146.png"
