@@ -8,8 +8,22 @@ client.on('ready', () => {
 client.on('message', message => {
     if (message.content === 'r6 dray') {
     	message.reply({embed: {
-  color: 3447003,
-  description: "[Dray7z | R6DB](https://r6db.com/player/a633df64-18bf-4f2d-a314-d75ab9c77657)"
+  "description": "[Dray7z | R6DB](https://r6db.com/player/a633df64-18bf-4f2d-a314-d75ab9c77657)",
+    "url": "https://discordapp.com",
+    "color": 16777215,
+    "timestamp": "2018-05-27T04:27:54.100Z",
+    "footer": {
+      "icon_url": "https://ubistatic19-a.akamaihd.net/resource/it-it/game/rainbow6/siege-v3/r6-operators-list-jager_317272.png",
+      "text": "Jäger"
+    },
+    "thumbnail": {
+      "url": "https://uplay-avatars.s3.amazonaws.com/a633df64-18bf-4f2d-a314-d75ab9c77657/default_146_146.png"
+    },
+    "author": {
+      "name": "(client.user)",
+      "url": "https://r6db.com/player/a633df64-18bf-4f2d-a314-d75ab9c77657",
+      "icon_url": "https://store.playstation.com/store/api/chihiro/00_09_000/container/CH/de/99/EP0001-CUSA01788_00-AV00000000000041//image?_version=00_09_000&platform=chihiro&w=720&h=720&bg_color=000000&opacity=100"
+    }
 }});
   	}
 	
