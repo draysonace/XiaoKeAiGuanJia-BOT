@@ -1,25 +1,19 @@
-const Discord = require('discord.js');
-const client = new Discord.Client();
+const RainbowSixApi = require('rainbowsix-api-node');
+const R6 = new RainbowSixApi();
 
-client.on('ready', () => {
-    console.log('I am ready!');
+let username = '<username here>';
+let platform = '<platform here: uplay, xone, ps4>';
+
+//Get stats on the user on that platform
+R6.stats(username, platform, /*optional true or false if you want operator details or not*/).then(response => {
+    console.log(response);
+}).catch(error => {
+    console.error(error)
 });
 
-client.on('message', message => {
-    if (message.content === 'r6 dray') {
-    	message.reply({embed: {
-  color: 3447003,
-  description: "[Dray7z | R6DB](https://r6db.com/player/a633df64-18bf-4f2d-a314-d75ab9c77657)"
-}});
-  	}
-	
-	else if(message.content === 'r6 jager') {
-    	message.reply({embed: {
-  color: 3447003,
-  description: "[Fundy123 | R6DB](https://r6db.com/player/0ce52d73-e597-4aad-b2ac-3733b9c37194)"
-}});
-  	}
+//For getting details about a user on R6 depending on platform
+R6.profile(username, platform).then(response => {
+    console.log(response);
+}).catch(error => {
+    console.error(error);
 });
-
-// THIS  MUST  BE  THIS  WAY
-client.login(process.env.BOT_TOKEN);
