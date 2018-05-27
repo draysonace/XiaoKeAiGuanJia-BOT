@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.reply('pong');
+    if (message.content === 'r6 dray') {
+    	message.reply('[Dray7z|R6DB](https://r6db.com/player/a633df64-18bf-4f2d-a314-d75ab9c77657)');
   	}
 });
 
