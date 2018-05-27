@@ -40,6 +40,7 @@ client.on('message', message => {
       "name": "R6DB",
       "url": "https://r6db.com/player/a633df64-18bf-4f2d-a314-d75ab9c77657",
       "icon_url": "https://i.redd.it/iznunq2m8vgy.png"
+	  }
 }});
   	}
 });
