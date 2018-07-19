@@ -61,6 +61,10 @@ client.on('message', message => {
 	else if(message.content === '山藥 當歸 枸杞') {
     	message.reply('Go!');
   	}
+	
+	else if(message.content === '上帝是公平的') {
+    	message.reply('因為他對每個人都不公平 Bang!');
+  	}
 });
 
 // THIS  MUST  BE  THIS  WAY
