@@ -22,6 +22,10 @@ client.on('message', message => {
     	message.reply('安安');
   	}
 	
+	else if(message.content === '拜拜') {
+    	message.reply('拜拜');
+  	}
+	
 	else if(message.content === '大家早安') {
     	message.reply('早安');
   	}
@@ -36,6 +40,18 @@ client.on('message', message => {
 	
 	else if(message.content === '大家安安') {
     	message.reply('安安');
+  	}
+	
+	else if(message.content === '大家拜拜') {
+    	message.reply('拜拜');
+  	}
+	
+	else if(message.content === '有人要打嗎') {
+    	message.reply('我要!');
+  	}
+	
+	else if(message.content === '我的改變') {
+    	message.reply('你看得見');
   	}
 });
 
