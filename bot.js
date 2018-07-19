@@ -51,7 +51,15 @@ client.on('message', message => {
   	}
 	
 	else if(message.content === '我的改變') {
-    	message.reply('你看得見');
+    	message.reply('你看得見!');
+  	}
+	
+	else if(message.content === '愚者的改變') {
+    	message.reply('大家看得見!');
+  	}
+	
+	else if(message.content === '山藥 當歸 枸杞') {
+    	message.reply('Go!');
   	}
 });
 
