@@ -65,6 +65,10 @@ client.on('message', message => {
 	else if(message.content === '上帝是公平的') {
     	message.reply('因為他對每個人都不公平 Bang!');
   	}
+	
+	else if(message.content === '我最拿手的菜是什麼') {
+    	message.reply('我覺得你燒的白開水不錯');
+  	}
 });
 
 // THIS  MUST  BE  THIS  WAY
