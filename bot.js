@@ -70,6 +70,10 @@ client.on('message', message => {
     	message.reply('嫻嫻最可愛!');
   	}
 	
+	else if(message.content === '喵~') {
+    	message.reply('喵~');
+  	}
+	
 	else if(message.content === '我最拿手的菜是什麼') {
     	message.reply('我覺得你燒的白開水不錯');
   	}
