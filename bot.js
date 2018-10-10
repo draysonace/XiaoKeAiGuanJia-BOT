@@ -69,7 +69,7 @@ client.on('message', message => {
 	else if(message.content === '我最拿手的菜是什麼') {
     	message.reply('我覺得你燒的白開水不錯');
 		
-	else if(message.content === '誰最可以') {
+	else if(message.content === '誰最可愛') {
     	message.reply('嫻嫻最可愛');
 		
   	}
