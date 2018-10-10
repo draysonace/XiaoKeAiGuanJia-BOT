@@ -66,12 +66,12 @@ client.on('message', message => {
     	message.reply('因為他對每個人都不公平 Bang!');
   	}
 	
+	else if(message.content === '誰最可愛') {
+    	message.reply('嫻嫻最可愛!');
+  	}
+	
 	else if(message.content === '我最拿手的菜是什麼') {
     	message.reply('我覺得你燒的白開水不錯');
-	}
-		
-	else if(message.content === '誰最可愛') {
-    	message.reply('嫻嫻最可愛');	
   	}
 });
 
